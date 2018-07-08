@@ -1,0 +1,19 @@
+{
+  "name": "ojdebug",
+  "version": "1.0.0",
+  "description": "A platfomr for OJ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumAlbert/oj.git"
+  },
+  "author": "Albert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumAlbert/oj/issues"
+  },
+  "homepage": "https://github.com/sumAlbert/oj#readme"
+}
