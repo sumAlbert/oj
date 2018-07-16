@@ -1,0 +1,16 @@
+.textArea-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textArea-content {
+  height: 90%;
+  width: 90%;
+  border: 1px solid #666;
+  padding: 3px;
+  color: #666;
+  outline: none;
+}
+/*# sourceMappingURL=index.css.map */

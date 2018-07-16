@@ -1,0 +1,43 @@
+.dragLayout {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.dragLayout_part-left {
+  position: relative;
+  height: 100%;
+  background: white;
+  box-shadow: -3px 0 1px -2px black inset;
+}
+.dragLayout_moveBar-normal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  right: -3px;
+  top: 0;
+  height: 100%;
+  width: 8px;
+  background: hsla(0, 0, 20%, .9);
+  opacity: 0;
+  transition: all .5s;
+}
+.dragLayout_moveBar-show {
+  opacity: 1;
+}
+.dragLayout_moveBar-show > .dragLayout_circle {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: hsla(0, 0, 50%, .9);
+}
+.dragLayout_circle:nth-child(2) {
+  margin: 10px 0;
+}
+.dragLayout_part-right {
+  height: 100%;
+  flex: 1 1 auto;
+  background: white;
+}
